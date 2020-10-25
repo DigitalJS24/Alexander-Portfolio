@@ -81,7 +81,7 @@ function extractPriceFromValue(str) {
   const price = str.match(/:\d+/);
 
   if (price) {
-    return Number(price[0].slice(1)) || 0;
+              return Number(price[0].slice(1)) || 0;
   }
 
   return 0;

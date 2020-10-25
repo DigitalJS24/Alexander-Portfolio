@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .modal {
+            display: none;
+        }
+    </style>
 
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -133,7 +138,7 @@
 
 
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container container-left">
             <h3 class="section-title about-title">I code things from scratch_</h3>
             <p class="about-descr">
@@ -158,7 +163,7 @@
         </div>
     </section>
 
-    <section class="personal-projects">
+    <section class="personal-projects" id="projects">
         <div class="container">
             <h3 class="section-title personal-projects-title">My personal _projects</h3>
 
@@ -284,7 +289,7 @@
 
     <!-- Calculator Form Section -->
 
-    <section class="calculator">
+    <section class="calculator" id="calculator">
         <div class="container">
             <h3 class="calculator-title section-title">
                 Calculate_ the cost of a future project
@@ -360,7 +365,7 @@
         </div>
     </section>
     <!-- Footer Section -->
-    <section class="footer">
+    <footer class="footer" id="contacts">
         <div class="container">
             <div class="footer-title">
                 <h3 class="footer-title-name">Alexander Galamba</h3>
@@ -387,7 +392,31 @@
                 </a>
             </div>
         </div>
-    </section>
+    </footer>
+
+    <!-- Modals -->
+
+    <div class="modals-wrapper">
+        <!-- Mobile menu -->
+
+        <div class="modal modal-mobile-menu">
+            <div class="modal-mobile-menu-content">
+                <div class="container mobile-menu-container">
+                    <i class="fas fa-times mobile-menu-close-btn modal-close-btn"></i>
+                    <nav class="mobile-menu-items">
+                        <a href="#about" class="mobile-menu-item">ABOUT</a>
+                        <a href="#projects" class="mobile-menu-item">PROJECTS</a>
+                        <a href="#calculator" class="mobile-menu-item">COST CALCULATOR</a>
+                        <a href="#contacts" class="mobile-menu-item">CONTACTS</a>
+                    </nav>
+                    <div class="mobile-menu-contacts">
+                        <a href="tel:+380937264972" class="mobile-menu-tel">+38 (093) 726 49 72</a>
+                        <a href="mailto:digitaljs@gmail.com" class="mobile-menu-email">digitaljs@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="js/choices.min.js"></script>
