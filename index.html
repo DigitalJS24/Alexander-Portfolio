@@ -41,7 +41,8 @@
         </h2>
 
         <p class="front-page-description">
-            / Using HTML, CSS, JavaScript, React Native and Node.js I help to build websites, small and medium web apps for business
+            / Using HTML, CSS, JavaScript, React Native and Node.js I help to build websites, small and medium web apps
+            for business
         </p>
 
         <button class="front-page-gallery-btn accent-btn">See my recent works —</button>
@@ -152,10 +153,12 @@
                 </p>
             </div>
             <p class="about-text">
-                / I will help you to create a high-performance Landing Page, functional corporate website for your business, interactive web app for SaaS, startup, or other services.
+                / I will help you to create a high-performance Landing Page, functional corporate website for your
+                business, interactive web app for SaaS, startup, or other services.
             </p>
             <p class="about-text">
-                / My specialization is front-end development — client side of the web. But I also have full-stack developer experience.
+                / My specialization is front-end development — client side of the web. But I also have full-stack
+                developer experience.
             </p>
         </div>
     </section>
@@ -171,7 +174,8 @@
                         <div class="projet-item-dot"></div>
                         <div class="projet-item-dot"></div>
                     </div>
-                    <img src="img/projects/personal/full-stack.jpg" alt="full stack website" class="personal-project-img" />
+                    <img src="img/projects/personal/full-stack.jpg" alt="full stack website"
+                        class="personal-project-img" />
                 </div>
                 <p class="personal-project-name">
                     <i class="fas fa-laptop-code personal-project-icon"></i>
@@ -278,7 +282,8 @@
                 <input type="text" class="callback-form-input" placeholder="Name">
                 <input type="email" class="callback-form-input" placeholder="Email">
                 <input type="tel" class="callback-form-input" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone">
-                <input type="submit" class="callback-form-submit accent-btn" value="Discuss the project  —">
+                <input type="submit" class="callback-form-submit accent-btn" value="Discuss the project  —"
+                    id="callback-btn">
             </form>
         </div>
     </section>
@@ -315,7 +320,8 @@
                     <label for="calculator-form-technologies" class="calculator-form-title">Choose preferred
                         technologies
                     </label>
-                    <select name="technologies" id="calculator-form-technologies" class="calculator-form-select" multiple>
+                    <select name="technologies" id="calculator-form-technologies" class="calculator-form-select"
+                        multiple>
                         <option selected value="css:500">CSS</option>
                         <option selected value="html:500">HTML</option>
                         <option selected value="js:1000">JavaScript</option>
@@ -328,10 +334,12 @@
 
                     <label for="" class="calculator-form-title">Personal account and shopping cart:</label>
                     <div class="calculator-form-input-radio-container" id="calculator-form-input-cart">
-                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-yes" name="cart" value="yes">
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-yes"
+                            name="cart" value="yes">
                         <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">Yes</label>
 
-                        <input checked type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-no" name="cart" value="no">
+                        <input checked type="radio" class="calculator-form-input-field"
+                            id="calculator-form-input-cart-no" name="cart" value="no">
                         <label for="calculator-form-input-cart-no" class="calculator-form-input-label">No</label>
 
                     </div>
@@ -339,10 +347,12 @@
                 <div class="calculator-form-input">
                     <label for="" class="calculator-form-title">Requests reception on your email:</label>
                     <div class="calculator-form-input-radio-container" id="calculator-form-input-reception">
-                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-yes" name="reception" value="yes">
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-yes"
+                            name="reception" value="yes">
                         <label for="calculator-form-input-reception-yes" class="calculator-form-input-label">Yes</label>
 
-                        <input checked type="radio" class="calculator-form-input-field" id="calculator-form-input-receprion-no" name="reception" value="no">
+                        <input checked type="radio" class="calculator-form-input-field"
+                            id="calculator-form-input-receprion-no" name="reception" value="no">
                         <label for="calculator-form-input-reception-no" class="calculator-form-input-label">No</label>
 
                     </div>
@@ -370,10 +380,12 @@
                 <a href="https://github.com/DigitalJS24" target="_blank" class="footer-social-img">
                     <i class="fab fa-github-square"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/alexander-galamba-77132892" target="_blank" class="footer-social-img">
+                <a href="https://www.linkedin.com/in/alexander-galamba-77132892" target="_blank"
+                    class="footer-social-img">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.facebook.com/profile.php?id=100006040696572" target="_blank" class="footer-social-img">
+                <a href="https://www.facebook.com/profile.php?id=100006040696572" target="_blank"
+                    class="footer-social-img">
                     <i class="fab fa-facebook-square"></i>
                 </a>
                 <a href="https://www.instagram.com/" target="_blank" class="footer-social-img">
@@ -407,10 +419,25 @@
         </div>
     </div>
 
+    <!-- Modal My Video -->
+
     <div class="modal modal-area-bgd" id="my-video-modal">
         <div class="my-video-container">
             <i class="fas fa-times my-video-close-btn modal-close-btn"></i>
             <video src="video.mp4" class="my-video-content modal-area-content" controls></video>
+        </div>
+    </div>
+
+    <!-- Modal Callback Answer -->
+
+    <div class="modal modal-area-bgd modal-callback" id="modal-callback">
+        <div class="container">
+            <div class="modal-area-content modal-callback-container">
+                <i class="fas fa-times modal-callback-close-btn modal-close-btn"></i>
+                <p class="modal-callback-thanks">{Thanks}</p>
+                <h2 class="modal-callback-answer">I've received your request/</h2>
+                <p class="modal-callback-answer-descr">I will contact you soon =)</p>
+            </div>
         </div>
     </div>
 
