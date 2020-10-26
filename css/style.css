@@ -218,7 +218,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: 320px;
   padding: 20px 10px;
+  box-sizing: border-box;
 }
 
 .my-video-close-btn {
@@ -229,17 +231,21 @@ body {
 
 .my-video-content {
   width: 100%;
+  /* padding-right: 5px;
+  padding-left: 5px; */
+  box-sizing: border-box;
 }
 
 /* Modal Callback */
 
 .modal-callback {
-  padding: 0 10px;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 320px;
+  padding: 20px 10px;
+  box-sizing: border-box;
 }
 
 .modal-callback-container {
@@ -248,8 +254,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 10px;
-  width: 305px;
+  box-sizing: border-box;
+  width: 300px;
   height: 330px;
   background: var(--c-light);
 }
@@ -276,17 +282,18 @@ body {
   line-height: 31px;
   text-align: center;
   text-transform: uppercase;
-  color: var(--c-dark);
-  padding: 0 32px 0 25px;
+  color: var(--txt-c-dark);
+  width: 80%;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .modal-callback-answer-descr {
   font-size: 17px;
   line-height: 130%;
   text-align: center;
-  color: var(--c-dark);
-  padding: 0 70px;
+  color: var(--txt-c-dark);
+  width: 60%;
 }
 
 /* Front Page */
