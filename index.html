@@ -29,7 +29,7 @@
                 <a href="" class="hire-me-btn">
                     — HIRE ME
                 </a>
-                <a href="" class="mobile-menu">
+                <a href="" class="mobile-menu" id="mobile-menu-btn">
                     <i class="fas fa-bars"></i>
                 </a>
             </div>
@@ -47,7 +47,7 @@
         <button class="front-page-gallery-btn accent-btn">See my recent works —</button>
         <img src="img/my-photo.jpg" alt="" class="front-page-my-photo">
         <p class="front-page-my-descr">About me in 2 minutes</p>
-        <button class="front-page-my-video-btn">
+        <button class="front-page-my-video-btn" id="my-video-btn">
             <i class="fas fa-play"></i>
             PLAY
         </button>
@@ -388,7 +388,7 @@
     <div class="modals-wrapper">
         <!-- Mobile menu -->
 
-        <div class="modal modal-mobile-menu">
+        <div class="modal modal-mobile-menu" id="mobile-menu">
             <div class="modal-mobile-menu-content">
                 <div class="container mobile-menu-container">
                     <i class="fas fa-times mobile-menu-close-btn modal-close-btn"></i>
@@ -407,15 +407,16 @@
         </div>
     </div>
 
-    <div class="modal modal-active">
+    <div class="modal modal-area-bgd" id="my-video-modal">
         <div class="my-video-container">
             <i class="fas fa-times my-video-close-btn modal-close-btn"></i>
-            <video src="video.mp4" class="my-video-content" controls></video>
+            <video src="video.mp4" class="my-video-content modal-area-content" controls></video>
         </div>
     </div>
 
     <script src="js/choices.min.js"></script>
     <script src="js/calculator.js"></script>
+    <script src="js/modals.js"></script>
 </body>
 
 </html>
