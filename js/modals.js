@@ -34,6 +34,7 @@ buttons.forEach((btn, index) => {
 });
 
 
+
 modalCloseBtns.forEach(btn => {
     btn.addEventListener('click', hideModal);
 })
