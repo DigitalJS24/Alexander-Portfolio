@@ -884,7 +884,7 @@ body {
         padding-top: 45px;
     }
     .callback-form-container {
-        padding-top: 72px;
+        padding: 72px 0 80px;
     }
     .callback-form-title {
         font-size: 36px;
@@ -893,5 +893,9 @@ body {
     }
     .callback-form-descr {
         width: 356px;
+    }
+    .callback-form-input,
+    .callback-form-submit {
+        width: 350px;
     }
 }
