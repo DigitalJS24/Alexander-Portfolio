@@ -879,4 +879,19 @@ body {
         line-height: 240px;
         top: 19px;
     }
+    /* CALLBACK FORM SECTION TABLET */
+    .callback-form .container {
+        padding-top: 45px;
+    }
+    .callback-form-container {
+        padding-top: 72px;
+    }
+    .callback-form-title {
+        font-size: 36px;
+        line-height: 43px;
+        width: 386px;
+    }
+    .callback-form-descr {
+        width: 356px;
+    }
 }
