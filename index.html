@@ -25,7 +25,7 @@
     <section class="front-page-nav">
 
         <nav class="navigation">
-            <a href="" class="link">
+            <a href="javascript:scroll(0,0)" class="link">
                 <img src="img/goit-logo.svg" alt="GoIT Logo">
             </a>
             <div class="navigation-part">
@@ -309,14 +309,25 @@
 
     <section class="calculator" id="calculator">
         <div class="container">
-            <h3 class="calculator-title section-title">
+            <h3 class="calculator-title section-title mobile-element">
                 Calculate_ the cost of a future project
             </h3>
-            <p class="calculator-descr">
-                <span>This is an</span>
-                <span class="calculator-descr-accent">approximate</span>
-                <span>calculation.</span>
-            </p>
+            <h3 class="calculator-title section-title tablet-element">
+                Calculate_<br> the cost of a<br> future project
+            </h3>
+            <div class="mobile-element">
+                <p class="calculator-descr">
+                    <span>This is an</span>
+                    <span class="calculator-descr-accent">approximate</span>
+                    <span>calculation.</span>
+                </p>
+            </div>
+            <div class="tablet-element">
+                <p class="calculator-descr">
+                    <span>This is an approximate</span>
+                    <span>calculation.</span>
+                </p>
+            </div>
             <img src="img/calculator.svg" alt="calculator" class="calculator-icon" />
             <p class="calculator-text">
                 / The final cost depends on the technical requirements, terms, specifics of your project.
@@ -373,7 +384,7 @@
                     <p class="calculator-form-cost-title">Cost:</p>
                     <p class="calculator-form-cost-total">500$</p>
                 </div>
-                <input type="submit" value="Find out the cost  —" class="accent-btn">
+                <input type="submit" value="Find out the cost  —" class="accent-btn calculator-form-submit-btn">
             </form>
         </div>
     </section>
