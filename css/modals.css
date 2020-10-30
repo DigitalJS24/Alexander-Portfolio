@@ -119,6 +119,7 @@
 }
 
 .my-video-content {
+    max-width: 745px;
     width: 100%;
     box-sizing: border-box;
 }
