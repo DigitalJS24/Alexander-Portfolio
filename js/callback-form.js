@@ -17,9 +17,10 @@ userPhone.addEventListener('blur', function() {
     }
 });
 
-callbackForm.addEventListener('submit', function(event){
+callbackForm.addEventListener('submit', function(event) {
     event.preventDefault();
     let hasError = false;
+    /* let userPhoneCorrectSet = userPhone.value.replace(/[\s\(\)\-]/g, ''); */
 
     if (!userName.value.trim()) {
         userName.classList.add('callback-form-input-error');
@@ -35,7 +36,7 @@ callbackForm.addEventListener('submit', function(event){
         userEmail.classList.remove('callback-form-input-error');
     }
 
-    if (!userPhone.value.trim() || !isPhoneValid(userPhone.value)) {
+    if (!userPhone.value.trim()) {
         userPhone.classList.add('callback-form-input-error');
         hasError = true;
     } else {
@@ -56,11 +57,6 @@ callbackForm.addEventListener('submit', function(event){
         callbackModal.classList.remove('modal-active');
     }, 3000);
 });
-
-function isPhoneValid(phone = '') {
-    const regexp = /(\+38)?\(?\d{3}\)?[\s\.-]?(\d{9}|\d{3}[\s\.-]\d{2}[\s\.-]\d{2}|\d{3}-\d{4})/;
-    return phone.match(regexp);
-}
 
 function isEmailValid(email) {
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
