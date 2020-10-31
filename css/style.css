@@ -65,6 +65,10 @@ body {
 
 /* COMMON */
 
+.mobile-element {
+    display: block;
+}
+
 .tablet-element {
     display: none;
 }

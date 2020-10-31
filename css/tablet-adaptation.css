@@ -8,6 +8,9 @@
     .tablet-element {
         display: block;
     }
+    .desktop-element {
+        display: none;
+    }
     /* FRONT PAGE SECTION TABLET */
     .front-page-my-name {
         font-size: 36px;
