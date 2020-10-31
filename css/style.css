@@ -20,7 +20,7 @@
     --mobile: calc(300px + var(--vertical-scroll));
     --tablet: calc(640px + var(--vertical-scroll));
     --desktop: calc(900px + var(--vertical-scroll));
-    --desktop-lg: calc(1146px + var(--vertical-scroll));
+    --desktop-lg: calc(1270px + var(--vertical-scroll));
     /* animation */
     --animation-fast: 0.1s;
     --animation-slow: 0.3s;
@@ -85,6 +85,7 @@ body {
     padding: 20px 35px;
     outline: none;
     border: none;
+    text-decoration: none;
 }
 
 .container {
@@ -126,6 +127,12 @@ body {
     background: var(--c-dark);
     padding: 10px 10px 35px 10px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.front-page-main-info-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;

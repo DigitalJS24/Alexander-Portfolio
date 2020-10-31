@@ -1,1 +1,108 @@
-@media only screen and (min-width: 900px) {}
+@media only screen and (min-width: 1024px) {
+    .container {
+        max-width: var(--desktop-lg);
+    }
+    .mobile-element {
+        display: none;
+    }
+    .tablet-element {
+        display: none;
+    }
+    .desktop-element {
+        display: block;
+    }
+    .mobile-menu {
+        display: none;
+    }
+    .front-page-main {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: relative;
+        padding-top: 110px;
+    }
+    .front-page-main-info-wrapper {
+        align-items: flex-start;
+        z-index: 2;
+        order: 2;
+        position: relative;
+    }
+    .front-page-my-photo {
+        position: absolute;
+        width: 256px;
+        z-index: 1;
+        right: -125px;
+        bottom: 330px;
+        opacity: 0;
+    }
+    .front-page-my-name:hover+.front-page-my-photo {
+        transition: all 1s;
+        opacity: 1;
+        z-index: 5;
+    }
+    .front-page-my-name {
+        margin-top: 0;
+    }
+    .front-page-profesion {
+        font-size: 70px;
+        line-height: 84px;
+    }
+    .front-page-description {
+        text-align: left;
+        margin-bottom: 65px;
+    }
+    .front-page-gallery-btn {
+        margin-bottom: 125px;
+    }
+    .front-page-my-info-container {
+        order: 3;
+    }
+    .front-page-my-descr {
+        text-align: right;
+    }
+    .experience-container {
+        order: 1;
+    }
+    .experience-title {
+        text-align: left;
+    }
+    .experience-skill {
+        margin-left: 0;
+    }
+    .front-page-laptop {
+        position: absolute;
+        right: 0;
+        bottom: 15px;
+        z-index: 1;
+    }
+    /* Galleries */
+    .team-project-item-wrapper,
+    .personal-project-item-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .team-project-item,
+    .personal-project-item {
+        width: calc(50% - 20px);
+    }
+    .team-project-item:nth-child(odd),
+    .personal-project-item:nth-child(odd) {
+        margin: 0 20px 40px 0;
+    }
+    .team-project-item:nth-child(even),
+    .personal-project-item:nth-child(even) {
+        margin: 0 0 40px 20px;
+    }
+    .team-projects-title,
+    .personal-projects-title {
+        font-size: 70px;
+        line-height: 84px;
+        width: 530px;
+    }
+    .team-projects-title-bgd {
+        font-size: 250px;
+        line-height: 300px;
+        top: 35px;
+        left: 274px;
+    }
+}

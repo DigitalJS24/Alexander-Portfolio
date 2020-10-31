@@ -31,6 +31,9 @@
         width: 385px;
         margin: 10px 0 40px 0;
     }
+    .front-page-gallery-btn {
+        padding: 21px 87px;
+    }
     .front-page-my-info-container {
         display: flex;
         flex-direction: row;
