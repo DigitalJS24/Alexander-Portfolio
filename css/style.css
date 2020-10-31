@@ -250,6 +250,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 37px;
+    cursor: pointer;
 }
 
 .front-page-my-video-btn i {

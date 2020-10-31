@@ -11,9 +11,29 @@
     .desktop-element {
         display: block;
     }
+    /* FRONT PAGE NAVIGATION DESKTOP */
+    .link {
+        width: 200px;
+    }
+    .desktop-menu-item {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--txt-c-grey);
+        text-decoration: none;
+        margin-right: 30px;
+        transition: all 1s;
+    }
+    .desktop-menu-item:hover {
+        transition: all 1s;
+        color: var(--txt-c-accent);
+    }
     .mobile-menu {
         display: none;
     }
+    /* FRONT PAGE MAIN DESKTOP*/
     .front-page-main {
         flex-direction: row;
         justify-content: space-between;
@@ -32,20 +52,22 @@
         width: 256px;
         z-index: 1;
         right: -125px;
-        bottom: 330px;
+        bottom: 430px;
         opacity: 0;
     }
     .front-page-my-name:hover+.front-page-my-photo {
         transition: all 1s;
         opacity: 1;
-        z-index: 5;
+        z-index: 1;
     }
     .front-page-my-name {
         margin-top: 0;
+        z-index: 2;
     }
     .front-page-profesion {
         font-size: 70px;
         line-height: 84px;
+        z-index: 2;
     }
     .front-page-description {
         text-align: left;
@@ -75,7 +97,15 @@
         bottom: 15px;
         z-index: 1;
     }
-    /* Galleries */
+    /* ABOUT SECTION DESKTOP */
+    .about-text,
+    .about-text:last-child {
+        width: 400px;
+    }
+    .about-text:last-child {
+        width: 410px;
+    }
+    /* GALLERIES DESKTOP*/
     .team-project-item-wrapper,
     .personal-project-item-wrapper {
         display: flex;

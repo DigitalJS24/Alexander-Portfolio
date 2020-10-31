@@ -31,9 +31,6 @@
         width: 385px;
         margin: 10px 0 40px 0;
     }
-    .front-page-gallery-btn {
-        padding: 21px 87px;
-    }
     .front-page-my-info-container {
         display: flex;
         flex-direction: row;
@@ -68,7 +65,7 @@
     .about-img-text {
         position: absolute;
         right: 22px;
-        top: 228px;
+        top: 218px;
         font-size: 200px;
         line-height: 240px;
     }
@@ -76,7 +73,7 @@
         width: 361px;
         height: 390px;
         left: -105px;
-        top: 70px;
+        top: 65px;
     }
     .about-img-container {
         margin-bottom: 0;
@@ -90,6 +87,9 @@
         font-size: 36px;
         line-height: 43px;
         margin-bottom: 60px;
+    }
+    .about-text {
+        width: 335px;
     }
     .about-text:last-child {
         width: 320px;
