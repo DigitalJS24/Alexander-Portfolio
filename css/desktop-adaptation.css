@@ -87,6 +87,9 @@
     .front-page-my-descr {
         text-align: right;
     }
+    .front-page-my-video-btn {
+        padding: 10px 30px 10px 30px;
+    }
     .experience-container {
         order: 1;
     }
