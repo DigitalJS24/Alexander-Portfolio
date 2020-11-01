@@ -5,11 +5,11 @@
     .mobile-element {
         display: none;
     }
-    .tablet-element {
-        display: block;
-    }
     .desktop-element {
         display: none;
+    }
+    .tablet-element {
+        display: block;
     }
     /* FRONT PAGE SECTION TABLET */
     .front-page-my-name {
@@ -68,7 +68,7 @@
     .about-img-text {
         position: absolute;
         right: 22px;
-        top: 218px;
+        top: 70px;
         font-size: 200px;
         line-height: 240px;
     }
@@ -150,6 +150,9 @@
         align-items: normal;
         padding: 69px 20px 90px;
     }
+    .calculator-info-container {
+        align-items: flex-start;
+    }
     .calculator-title {
         font-size: 50px;
         line-height: 60px;
@@ -204,6 +207,9 @@
     }
     .footer-social a {
         margin-right: 33px;
+    }
+    .footer-social a:last-child {
+        margin-right: 0px;
     }
     /* MODALS TABLET */
     /* CALLBACK ANSWER MODAL TABLET */
