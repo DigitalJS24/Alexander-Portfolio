@@ -26,7 +26,6 @@ buttons.forEach((btn, index) => {
         btn.addEventListener('click', (event) => {
             event.preventDefault();
             projectModal.classList.add(MODAL_ACTIVE_CLASS);
-
             document.body.classList.add(BODY_SCROLL_DISABLE_CLASS);
         })
     }
@@ -40,13 +39,13 @@ modalCloseBtns.forEach(btn => {
 
 function enableCloseModalOnBgdClick() {
     if (modalContainers.length) {
-        modalContainers.forEach( container => {
+        modalContainers.forEach(container => {
             container.addEventListener('click', event => event.stopPropagation());
         });
     }
 
     if (modalsWrappers.length) {
-        modalsWrappers.forEach( container => {
+        modalsWrappers.forEach(container => {
             container.addEventListener('click', hideModal);
         });
     }
@@ -58,12 +57,12 @@ function hideModal() {
 
     if (modalToClose) {
         modalToClose.classList.remove(MODAL_ACTIVE_CLASS);
-        document.body.classList.remove(BODY_SCROLL_DISABLE_CLASS);    
+        document.body.classList.remove(BODY_SCROLL_DISABLE_CLASS);
     }
 
     const video = document.querySelector('video');
 
-    if (video)  {
+    if (video) {
         video.pause();
     }
 }
@@ -73,7 +72,7 @@ function hideModalOnMobileMenuElementsClick() {
     const menuElements = document.querySelectorAll('.mobile-menu-item');
 
     if (menuElements.length) {
-        menuElements.forEach( container => {
+        menuElements.forEach(container => {
             container.addEventListener('click', () => setTimeout(hideModal, MOBILE_MENU_ITEM_CLOSE_DELAY));
         });
     }

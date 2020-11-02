@@ -215,6 +215,16 @@ body {
     color: var(--txt-c-accent);
     text-decoration: none;
     margin: 0 20px 0 0;
+    background-image: linear-gradient(var(--c-accent), var(--c-accent));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.5s;
+}
+
+.hire-me-btn:hover {
+    transition: background-size 0.5s;
+    background-size: 100% 2px;
 }
 
 .mobile-menu {
@@ -225,6 +235,11 @@ body {
     text-decoration: none;
     justify-content: center;
     align-items: center;
+    transition: 1s;
+}
+
+.mobile-menu:hover {
+    transform: scale(1.1);
 }
 
 .mobile-menu .fas {
@@ -235,6 +250,7 @@ body {
 
 .front-page-gallery-btn {
     margin-bottom: 40px;
+    padding: 21px 31px;
 }
 
 .front-page-my-photo {
