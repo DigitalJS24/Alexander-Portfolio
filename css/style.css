@@ -147,6 +147,11 @@ body {
     top: -15px;
 }
 
+.front-page-nav .container {
+    margin: 0;
+    padding: 0;
+}
+
 .front-page-main {
     background: var(--c-dark);
     padding: 10px 10px 35px 10px;
