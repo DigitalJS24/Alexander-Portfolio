@@ -103,8 +103,12 @@ body {
     background-image: linear-gradient(var(--c-dark), var(--c-dark));
 }
 
-.container {
+section {
     min-width: 300px;
+}
+
+.container {
+    /*  min-width: 300px; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -142,6 +146,7 @@ body {
 .front-page-nav {
     padding: 30px 10px 10px;
     background: var(--c-dark);
+    box-sizing: border-box;
     position: sticky;
     z-index: 9;
     top: -15px;
@@ -153,7 +158,7 @@ body {
 
 .front-page-main {
     background: var(--c-dark);
-    padding: 10px 10px 35px 10px;
+    /* padding: 10px 10px 35px 10px; */
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -669,7 +674,7 @@ body {
 
 .calculator-form {
     background: var(--c-light);
-    padding: 30px 19px;
+    padding: 30px 10px;
 }
 
 .calculator-form-title {
