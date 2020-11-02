@@ -75,6 +75,11 @@
     text-decoration: none;
     text-align: center;
     margin-bottom: 35px;
+    transition: var(--animation-transition);
+}
+
+.mobile-menu-item:hover {
+    color: var(--txt-c-accent);
 }
 
 .mobile-menu-contacts {
