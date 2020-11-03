@@ -132,6 +132,11 @@ section {
     color: var(--txt-c-light);
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+    display: none !important;
+}
+
 
 /* FRONT PAGE */
 
@@ -507,6 +512,12 @@ section {
 
 .personal-project-btn {
     padding: 15px 30px 15px 10px;
+    margin-bottom: 30px;
+}
+
+.swiper-container {
+    width: 240px;
+    height: auto;
     margin-bottom: 30px;
 }
 

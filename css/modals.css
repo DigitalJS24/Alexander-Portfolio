@@ -207,6 +207,7 @@
     position: relative;
     box-sizing: border-box;
     height: 85%;
+    width: 100%;
 }
 
 .project-modal-scrollable {

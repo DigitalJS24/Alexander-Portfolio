@@ -11,6 +11,9 @@
     .desktop-element {
         display: block;
     }
+    .swiper-container {
+        width: 900px;
+    }
     /* FRONT PAGE NAVIGATION DESKTOP */
     .logo-wrapper {
         width: 260px;
@@ -297,6 +300,6 @@
         background-size: 100% 2px;
     }
     .project-modal-container {
-        padding: 95px;
+        padding: 20px;
     }
 }

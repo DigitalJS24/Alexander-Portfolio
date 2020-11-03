@@ -11,6 +11,13 @@
     .tablet-element {
         display: block;
     }
+    .swiper-container {
+        width: 570px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block !important;
+    }
     /* FRONT PAGE SECTION TABLET */
     .front-page-my-name {
         font-size: 36px;
