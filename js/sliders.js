@@ -1,6 +1,5 @@
 var mySwiper = new Swiper('.swiper-container', {
     // Optional params
-    effect: 'flip',
     grabCursor: true,
     loop: true,
     // If we need pagination
