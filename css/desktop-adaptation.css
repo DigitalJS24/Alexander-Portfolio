@@ -14,6 +14,18 @@
     .swiper-container {
         width: 900px;
     }
+    .scroll-down {
+        color: var(--txt-c-grey);
+        position: absolute;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 135%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        bottom: 0;
+        left: 0;
+    }
     /* FRONT PAGE NAVIGATION DESKTOP */
     .logo-wrapper {
         width: 260px;
@@ -53,6 +65,10 @@
         align-items: flex-start;
         position: relative;
         padding-top: 110px;
+    }
+    .front-page-main .scroll-down {
+        bottom: 170px;
+        left: 10px;
     }
     .front-page-main-info-wrapper {
         align-items: flex-start;
@@ -116,6 +132,10 @@
         z-index: 1;
     }
     /* ABOUT SECTION DESKTOP */
+    .about .scroll-down {
+        bottom: 70px;
+        left: 10px;
+    }
     .about-title {
         font-size: 70px;
         line-height: 84px;
