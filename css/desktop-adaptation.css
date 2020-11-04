@@ -28,7 +28,7 @@
     }
     /* FRONT PAGE NAVIGATION DESKTOP */
     .logo-wrapper {
-        width: 260px;
+        width: 275px;
     }
     .desktop-menu-item {
         font-weight: bold;
@@ -118,9 +118,11 @@
     }
     .experience-container {
         order: 1;
+        width: 178px;
     }
     .experience-title {
         text-align: left;
+        width: 186px;
     }
     .experience-skill {
         margin-left: 0;
